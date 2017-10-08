@@ -5,8 +5,13 @@ import './css/App.css';
 class App extends Component {
   render() {
     return (
-      <div className="container portfoliobackground">
+      <div className="portfoliobackground">
         <NavbarInstance />
+        <div className="row">
+          <div className='col-md-6'>
+            <img className='malik' src={require('./images/Malik.png')}></img>
+          </div>
+        </div>
       </div>
     );
   }

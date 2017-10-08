@@ -8,21 +8,21 @@
   }
 }
 .navbar {
-  background-color: black;
+  background-color: #ce722c;
   -webkit-animation: fadeIn 3s;
   opacity: .7;
   border-radius: 50px;
+  z-index: 1;
 
 }
 
-
-
-
 .navbar-default{
-  width: 60%;
+  width: 29%;
   margin: 0 auto;
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
+  top: 50px;
+
 }
 
 
@@ -31,7 +31,7 @@
 }
 
 .navbar-default .navbar-nav li a:hover {
-  color: #DA631C;
+  color: #447086;
 }
 
 .navbar-nav li .dropdown-menu{
