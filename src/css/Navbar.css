@@ -4,14 +4,20 @@
   background-color: black;
   opacity: .7;
   border-radius: 50px;
-
+  
 }
+
+
+
+
 .navbar-default{
   width: 60%;
   margin: 0 auto;
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
 }
+
+
 .navbar-default .navbar-nav li a {
   color: white;
 }
