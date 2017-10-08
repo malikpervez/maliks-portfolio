@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .7;
+  }
+}
 .navbar {
   background-color: black;
+  -webkit-animation: fadeIn 3s;
   opacity: .7;
   border-radius: 50px;
-  
+
 }
 
 
