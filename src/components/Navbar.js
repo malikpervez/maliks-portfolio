@@ -12,6 +12,7 @@ export default class NavbarInstance extends Component {
   render() {
     return (
       <Navbar>
+      
         <Nav>
           <NavItem eventKey={1} href="#">Home</NavItem>
           <NavItem eventKey={2} href="#">About Me</NavItem>
@@ -19,6 +20,8 @@ export default class NavbarInstance extends Component {
             <MenuItem eventKey={3.1}>Action</MenuItem>
             <MenuItem eventKey={3.2}>Another action</MenuItem>
             <MenuItem eventKey={3.3}>Something else here</MenuItem>
+            <MenuItem divider />
+            <MenuItem eventKey={3.3}>Separated link</MenuItem>
           </NavDropdown>
         </Nav>
       </Navbar>

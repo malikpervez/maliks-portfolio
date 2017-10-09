@@ -7,11 +7,9 @@ class App extends Component {
     return (
       <div className="portfoliobackground">
         <NavbarInstance />
-        <div className="row">
-          <div className='col-md-6'>
-            <img className='malik' src={require('./images/Malik.png')}></img>
-          </div>
-        </div>
+          
+            <div className='profile-box container'>
+            </div>
       </div>
     );
   }
