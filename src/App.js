@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="portfoliobackground">
         <NavbarInstance />
-          
+            <div className='headline'>Malik Pervez</div>
             <div className='profile-box container'>
             </div>
       </div>
