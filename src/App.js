@@ -7,15 +7,16 @@ class App extends Component {
     return (
       <div className="portfoliobackground">
         <header>
-          <a href='http://www.linkedin.com'>
+          <a className='links' href='http://www.linkedin.com'>
             <img src ={require('./images/linked.png')}></img>
           </a>
-          <a href= 'http://www.github.com'>
+          <a className ='links' href= 'http://www.github.com'>
           <img src ={require('./images/github.png')}></img>
           </a>
         </header>
           <h1 data-heading="i">Malik</h1>
             <div className='profile-box container'>
+              <div className="button">Full Stack Developer</div>
             </div>
 
       </div>
