@@ -1,0 +1,13 @@
+.vertical-box {
+  -webkit-animation: fadeIn 3s ease-in;
+  z-index: -1;
+  background: url("../images/wtc.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: grayscale(100%);
+  width: 48%;
+  height: 100%;
+  border-right: white solid 1px;
+  position: absolute; }

@@ -39,9 +39,10 @@ body {
   top: 0; }
 
 .links {
-  z-index: -2; }
+  z-index: -999; }
 
 .links-image {
+  z-index: -999;
   width: auto;
   height: auto; }
 
@@ -91,7 +92,7 @@ h1 {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 10px 0px 0px 27%;
   border: none;
   font: normal 28px/normal "Warnes", Helvetica, sans-serif;
   color: white;
