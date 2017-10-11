@@ -25,21 +25,30 @@
     text-shadow: none; } }
 
 body {
-  background: url("../images/wtc2.jpg") no-repeat center center fixed;
+  background: url("../images/wtc2.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   position: fixed;
+  height: 100%;
+  width: 100%;
   left: 0;
   right: 0;
   bottom: 0;
   top: 0; }
 
+.links {
+  z-index: -2; }
+
+.links-image {
+  width: auto;
+  height: auto; }
+
 .profile-box {
   -webkit-animation: fadeIn 3s ease-in;
   z-index: -1;
-  background: url("../images/wtc.jpg") no-repeat center center fixed;
+  background: url("../images/wtc.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -47,18 +56,18 @@ body {
   filter: grayscale(100%);
   width: 100%;
   height: 48%;
-  margin-top: 15%;
+  margin-top: 13%;
   border-top: white solid 1px;
   position: absolute; }
 
 h1 {
   -webkit-animation: fadeIn 3s ease-in;
   font-family: 'CoreCircus', sans-serif;
-  font-size: 14vw;
+  font-size: 13vw;
   text-align: center;
   line-height: 1;
   margin: 0;
-  top: 40%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -76,6 +85,26 @@ h1 {
     left: 67%;
     text-align: left;
     animation: flicker 3s linear infinite; }
+
+.routes {
+  display: inline-flex;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  font: normal 28px/normal "Warnes", Helvetica, sans-serif;
+  color: white;
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px #e22422, 0 0 70px #e22422, 0 0 80px #e22422, 0 0 100px #e22422;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1); }
 
 .button {
   display: flex;
@@ -100,3 +129,94 @@ h1 {
 
 .contact {
   display: flex; }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  h1 {
+    -webkit-animation: fadeIn 3s ease-in;
+    font-family: 'CoreCircus', sans-serif;
+    font-size: 18vw;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #5c5c5c;
+    letter-spacing: -.5rem; }
+    h1:before {
+      -webkit-animation: fadeIn 5s ease-in;
+      content: attr(data-heading);
+      position: absolute;
+      overflow: hidden;
+      color: #e22422;
+      width: 100%;
+      z-index: 5;
+      text-shadow: none;
+      left: 67%;
+      text-align: left;
+      animation: flicker 3s linear infinite; } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .button {
+    display: flex;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10%;
+    border: none;
+    font: normal 12px/normal "Warnes", Helvetica, sans-serif;
+    color: white;
+    text-decoration: normal;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px #e22422, 0 0 70px #e22422, 0 0 80px #e22422, 0 0 100px #e22422;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1); } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .routes {
+    display: inline-flex;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 10px 0px 56px;
+    border: none;
+    font: normal 14px/normal "Warnes", Helvetica, sans-serif;
+    color: white;
+    text-decoration: normal;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px #e22422, 0 0 70px #e22422, 0 0 80px #e22422, 0 0 100px #e22422;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1); } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .profile-box {
+    -webkit-animation: fadeIn 3s ease-in;
+    z-index: -1;
+    background: url("../images/wtc.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+    margin-top: 45%;
+    padding-top: 45%;
+    border-top: none;
+    position: absolute; } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .links-image {
+    display: none; } }
