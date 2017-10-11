@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:300");
-@import url("http://fonts.googleapis.com/css?family=Warnes");
+@import url("https://fonts.googleapis.com/css?family=Warnes");
 @font-face {
   font-family: 'CoreCircus2DDot1';
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.eot");
@@ -39,10 +39,10 @@ body {
   top: 0; }
 
 .links {
-  z-index: -999; }
+  z-index: 1; }
 
 .links-image {
-  z-index: -999;
+  z-index: 1;
   width: auto;
   height: auto; }
 
