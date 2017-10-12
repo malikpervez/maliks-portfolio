@@ -110,7 +110,7 @@ h1 {
 
 .resume{
 	height: 80vh;
-	width: 40vw;
+	width: 45vw;
 }
 
 .routes{
@@ -274,4 +274,10 @@ h1 {
 
 	}
 
+}
+@media screen and (max-width: 699px) and (min-width: 375px) {
+	.resume{
+		height: 50vh;
+		width: 50vw;
+	}
 }
