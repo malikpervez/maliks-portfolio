@@ -54,7 +54,6 @@ class Resume extends Component {
           contentLabel="Example Modal"
         >
         <img className='resume' ref={subtitle => this.subtitle = subtitle} src ={require("../images/MyResume.jpg")}></img>
-        <button onClick={this.closeModal}>X</button>
         </Modal>
       </div>
     )
