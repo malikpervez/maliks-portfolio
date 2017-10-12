@@ -53,7 +53,7 @@ class Resume extends Component {
           style={customStyles}
           contentLabel="Example Modal"
         >
-        <img className='resume' ref={subtitle => this.subtitle = subtitle} src ={require("../images/MyResume.jpg")}></img>
+        <img className='resume' ref={subtitle => this.subtitle = subtitle} src ={require("../images/MyResume.jpg")} alt='resume'></img>
         </Modal>
       </div>
     )
