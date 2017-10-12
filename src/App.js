@@ -5,6 +5,7 @@ import Lander from './components/Lander'
 import Aboutme from './components/Aboutme'
 
 
+
 class App extends Component {
   render() {
     return (
@@ -13,7 +14,6 @@ class App extends Component {
        <div>
         <Route exact={true} path='/' render={()=>(
             <div className="container-fluid">
-              <Header />
               <Lander />
             </div>
           )}

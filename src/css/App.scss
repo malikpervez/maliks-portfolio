@@ -57,14 +57,8 @@ body{
 }
 
 
-.links{
-	z-index: 999;
-}
-
-.links-image{
-	z-index: 1;
-	width: auto;
-	height: auto;
+.navigation{
+	display:inline-flex;
 }
 // black and white mask
 .profile-box{
@@ -77,8 +71,8 @@ body{
  background-size: cover;
  filter: grayscale(100%);
  width: 100%;
- height: 48%;
- margin-top: 13%;
+ height: 100%;
+ margin-top: 25%;
 
  border-top: white solid 1px;
  position: absolute;
@@ -114,14 +108,19 @@ h1 {
 	}
 }
 
+.resume{
+	height: 100vh;
+	width: 50vw;
+}
+
 .routes{
 	display: inline-flex;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 10px 0px 0px 27%;
+	padding: 10px 0px 0px 18vw;
 	border: none;
-	font: normal 28px/normal "Warnes", Helvetica, sans-serif;
+	font: normal 3.5vh/normal "Warnes", Helvetica, sans-serif;
 	color: rgba(255,255,255,1);
 	text-decoration: normal;
 	text-align: center;
@@ -147,7 +146,7 @@ h1 {
   box-sizing: border-box;
   padding: 10px;
   border: none;
-  font: normal 48px/normal "Warnes", Helvetica, sans-serif;
+  font: normal 7vh/normal "Warnes", Helvetica, sans-serif;
   color: rgba(255,255,255,1);
   text-decoration: normal;
   text-align: center;

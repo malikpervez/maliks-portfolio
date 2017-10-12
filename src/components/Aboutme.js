@@ -8,7 +8,7 @@ class Aboutme extends Component {
     return (
       <div id='about container-fluid'>
         <div className='vertical-box row'>
-          <Header />
+  
           <img className='malik' src={require('../images/Malik.png')}></img>
         </div>
         <div className= 'front-end col-md-6'>
