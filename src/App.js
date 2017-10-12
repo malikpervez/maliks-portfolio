@@ -12,14 +12,14 @@ class App extends Component {
           <BrowserRouter>
        <div>
         <Route exact={true} path='/' render={()=>(
-            <div className="App">
+            <div className="container-fluid">
               <Header />
               <Lander />
             </div>
           )}
          />
        <Route exact={true} path='/aboutme' render={()=>(
-            <div className='App'>
+            <div className='container-fluid'>
               <Aboutme />
             </div>
           )}/>

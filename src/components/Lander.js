@@ -6,7 +6,7 @@ class Lander extends Component{
     return(
       <div>
       <h1 data-heading="i">Malik</h1>
-      <div className='profile-box container'>
+      <div className='profile-box row'>
         <div className="button">Full Stack Developer</div>
         <Link className='routes' to= '/aboutme'>About Me</Link>
         <Link className='routes' to='/mywork'>My Work</Link>
