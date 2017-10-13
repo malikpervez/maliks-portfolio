@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Lander from './components/Lander'
-import Aboutme from './components/Aboutme'
+import Lander from './components/Lander';
+import Aboutme from './components/Aboutme';
+import Mywork from './components/Mywork';
 
 
 
@@ -22,6 +23,11 @@ class App extends Component {
               <Aboutme />
             </div>
           )}/>
+        <Route exact={true} path='/mywork' render={()=>(
+             <div className='container-fluid'>
+               <Mywork />
+             </div>
+           )}/>
          </div>
        </BrowserRouter>
       </div>

@@ -1,0 +1,139 @@
+#mywork {
+  position: relative; }
+
+.bwcol {
+  flex: 1;
+  -webkit-animation: fadeIn 3s ease-in;
+  z-index: -1;
+  background: url("../images/wtc.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: grayscale(100%);
+  width: 67vw;
+  height: 100%;
+  border-left: white solid 1px;
+  position: absolute;
+  right: 0px;
+  top: 0px; }
+
+.colorcol {
+  flex: 1;
+  position: absolute;
+  width: 33vw;
+  height: 100%;
+  left: 0px; }
+
+.colorcol a {
+  display: inline-flex;
+  margin-left: 13vw;
+  margin-top: 3vh;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  font: normal 3.5vh/normal "Warnes", Helvetica, sans-serif;
+  color: white;
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 70px white, 0 0 80px white, 0 0 100px white;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1); }
+
+.onthefly {
+  height: 20vh;
+  width: 20vw;
+  margin-left: 6vw;
+  margin-top: 10vh;
+  text-align: center; }
+
+.ontheflytitle {
+  background-color: rgba(10, 9, 9, 0.59);
+  font-size: 6vh;
+  position: absolute;
+  margin-left: 4vw;
+  margin-top: 11vh;
+  font-family: 'CoreCircus', sans-serif;
+  color: white; }
+
+.ontheflytech {
+  background-color: rgba(10, 9, 9, 0.59);
+  font-size: 2vh;
+  position: absolute;
+  margin-left: 4vw;
+  margin-top: 20vh;
+  font-family: 'CoreCircus', sans-serif;
+  color: white; }
+
+.ontheflybody {
+  background-color: rgba(10, 9, 9, 0.59);
+  font-size: 2vh;
+  position: absolute;
+  margin-top: 24vh;
+  margin-left: 4vw;
+  width: 33vw;
+  font-family: 'CoreCircus', sans-serif;
+  color: white; }
+
+.ontheflybody2 {
+  width: 33vw;
+  background-color: rgba(10, 9, 9, 0.59);
+  font-size: 2vh;
+  position: absolute;
+  margin-top: 22vh;
+  margin-left: 40vw;
+  width: 20vw;
+  font-family: 'CoreCircus', sans-serif;
+  color: white; }
+
+.teacherspet {
+  height: 20vh;
+  width: 20vw;
+  margin-left: 6vw;
+  margin-top: 12vh;
+  text-align: center; }
+
+.teacherspettitle {
+  background-color: rgba(10, 9, 9, 0.59);
+  font-size: 6vh;
+  position: absolute;
+  margin-left: 4vw;
+  margin-top: 48vh;
+  font-family: 'CoreCircus', sans-serif;
+  color: white; }
+
+.teacherspettech {
+  background-color: rgba(10, 9, 9, 0.59);
+  font-size: 2vh;
+  position: absolute;
+  margin-left: 4vw;
+  margin-top: 57vh;
+  font-family: 'CoreCircus', sans-serif;
+  color: white; }
+
+.teacherspetbody {
+  background-color: rgba(10, 9, 9, 0.59);
+  font-size: 2vh;
+  position: absolute;
+  margin-top: 61vh;
+  margin-left: 4vw;
+  width: 33vw;
+  font-family: 'CoreCircus', sans-serif;
+  color: white; }
+
+.teacherspetbody2 {
+  width: 33vw;
+  background-color: rgba(10, 9, 9, 0.59);
+  font-size: 2vh;
+  position: absolute;
+  margin-top: 60vh;
+  margin-left: 40vw;
+  width: 20vw;
+  font-family: 'CoreCircus', sans-serif;
+  color: white; }
