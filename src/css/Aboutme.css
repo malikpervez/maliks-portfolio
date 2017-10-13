@@ -165,7 +165,7 @@
     position: relative;
     width: 50%;
     margin-left: 40vw;
-    margin-top: 10vh;
+    margin-top: 8vh;
     flex-wrap: wrap;
     font-family: 'CoreCircus', sans-serif;
     color: white; } }
@@ -177,7 +177,7 @@
     width: 50%;
     position: absolute;
     margin-left: 40vw;
-    margin-top: 25vh;
+    margin-top: 20vh;
     font-family: 'CoreCircus', sans-serif;
     color: white; } }
 
@@ -187,7 +187,7 @@
     position: absolute;
     font-size: 1vh;
     margin-left: 11vw;
-    margin-top: 45vh;
+    margin-top: 40vh;
     font-family: 'CoreCircus', sans-serif;
     color: white; } }
 
