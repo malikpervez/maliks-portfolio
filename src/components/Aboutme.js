@@ -16,8 +16,17 @@ class Aboutme extends Component {
           </p>
         </div>
         <div className='right row'>
-          <h1 className='front-end'>Front End</h1>
-        
+          <h2 className='front-end'>Front End</h2>
+          <img src={require('../images/html.png')}></img>
+          <img src={require('../images/css.png')}></img>
+          <img src={require('../images/js.png')}></img>
+          <img src={require('../images/react.png')}></img>
+          <h2 className='back-end'>Back End</h2>
+          <img src={require('../images/node.png')}></img>
+          <img src={require('../images/ruby.png')}></img>
+          <img src={require('../images/rails.png')}></img>
+          <img src={require('../images/postgres.png')}></img>
+          <img src={require('../images/git.png')}></img>
         </div>
       </div>
     );

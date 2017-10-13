@@ -45,6 +45,9 @@
   width: 49.2%;
   height: 100%; }
 
+.right img {
+  margin-left: 6vh; }
+
 .myworklink {
   display: inline-flex;
   float: right;
@@ -75,31 +78,31 @@
   border-radius: 50%;
   position: absolute;
   margin-left: 17vw;
-  margin-top: 5vh; }
+  margin-top: 1vh; }
 
 .text {
   justify-content: flex-start; }
 
 .front-end {
-  font-size: 10vh; }
-
-.front-end img {
-  justify-content: center;
-  margin: 0 auto;
-  width: 4vw; }
+  font-size: 10vh;
+  font-family: 'CoreCircus', sans-serif;
+  color: #5c5c5c;
+  margin-top: 15vh;
+  margin-left: 5vh; }
 
 .back-end {
-  margin-left: 66vw; }
-
-.back-end img {
-  width: 8vh; }
+  font-size: 10vh;
+  font-family: 'CoreCircus', sans-serif;
+  color: #5c5c5c;
+  margin-top: 20vh;
+  margin-left: 5vh; }
 
 .aboutme {
   background-color: rgba(10, 9, 9, 0.36);
   font-size: 3vh;
   position: absolute;
   margin-left: 7vw;
-  margin-top: 40vh;
+  margin-top: 35vh;
   flex-wrap: wrap;
   font-family: 'CoreCircus', sans-serif;
   color: white; }
@@ -109,7 +112,7 @@
   font-size: 3vh;
   position: absolute;
   margin-left: 7vw;
-  margin-top: 60vh;
+  margin-top: 55vh;
   font-family: 'CoreCircus', sans-serif;
   color: white; }
 
@@ -118,6 +121,88 @@
   position: absolute;
   font-size: 2vh;
   margin-left: 7vw;
-  margin-top: 85vh;
+  margin-top: 80vh;
   font-family: 'CoreCircus', sans-serif;
   color: white; }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .vertical-box {
+    position: relative;
+    height: 50%;
+    width: 110%;
+    border-right: none;
+    border-bottom: 1 px solid right; } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .right {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    right: 12px; } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .right img {
+    height: 7vh;
+    width: 7vh;
+    justify-content: center;
+    margin-right: 1.5vw;
+    margin-left: 3vh; } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .malik {
+    z-index: 999;
+    height: 20vh;
+    width: 25vw;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 11vw;
+    margin-top: 15vh; } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .aboutme {
+    background-color: rgba(10, 9, 9, 0.36);
+    font-size: 1.5vh;
+    position: relative;
+    width: 50%;
+    margin-left: 40vw;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    font-family: 'CoreCircus', sans-serif;
+    color: white; } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .aboutme-content {
+    background-color: rgba(10, 9, 9, 0.36);
+    font-size: 1.5vh;
+    width: 50%;
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: 25vh;
+    font-family: 'CoreCircus', sans-serif;
+    color: white; } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .aboutme-content2 {
+    background-color: rgba(10, 9, 9, 0.36);
+    position: absolute;
+    font-size: 1vh;
+    margin-left: 11vw;
+    margin-top: 45vh;
+    font-family: 'CoreCircus', sans-serif;
+    color: white; } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .front-end {
+    font-size: 5vh;
+    font-family: 'CoreCircus', sans-serif;
+    color: white;
+    margin-top: 4vh;
+    margin-left: 11vh; } }
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+  .back-end {
+    font-size: 5vh;
+    font-family: 'CoreCircus', sans-serif;
+    color: white;
+    margin-top: 6vh;
+    margin-left: 11vh; } }
