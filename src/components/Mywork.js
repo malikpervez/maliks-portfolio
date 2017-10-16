@@ -37,9 +37,9 @@ class Mywork extends Component {
         </div>
         <div className='colorcol'>
           <img className='onthefly' src={require('../images/onthefly.jpg')}></img>
-          <a href='https://github.com/malikpervez/On_the_fly'>github</a>
+          <a href='https://github.com/malikpervez/On_the_fly' target='_blank'>Github</a>
           <img className='teacherspet' src={require('../images/teacherpet.jpg')}></img>
-          <a href= 'https://github.com/Dramalho7/teachers-pet'>github</a>
+          <a href= 'https://github.com/Dramalho7/teachers-pet' target='_blank'>Github</a>
         </div>
       </div>
     )
