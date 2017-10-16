@@ -178,6 +178,12 @@ h1 {
 
 // Media queries
 @media screen and (max-width: 699px) and (min-width: 375px) {
+	.navigation{
+		display:inline-flex;
+		margin-left: 13vw;
+	}
+}
+@media screen and (max-width: 699px) and (min-width: 375px) {
 			h1 {
 				-webkit-animation: fadeIn 3s ease-in;
 				font-family: 'CoreCircus', sans-serif;
@@ -240,7 +246,7 @@ h1 {
 		box-sizing: border-box;
 		padding: 10px 10px 0px .5vh;
 		border: none;
-		font: normal 3vh/normal "Warnes", Helvetica, sans-serif;
+		font: normal 3vh/normal 'Federo', sans-serif;
 		color: rgba(255,255,255,1);
 		text-decoration: normal;
 		text-align: center;

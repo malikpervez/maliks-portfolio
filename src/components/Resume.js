@@ -54,7 +54,7 @@ class Resume extends Component {
           contentLabel="Example Modal"
         >
         <img className='resume' ref={subtitle => this.subtitle = subtitle} src ={require("../images/MyResume.jpg")} alt='resume'></img>
-        <a className='resumedownload' href='https://drive.google.com/file/d/0B4Qm_Bf0R8XBVzVvM1ZNZWFhMVk/view' target='_blank'><img className='resumedlimage' src={require('../images/download.png')}></img></a>
+        <a className='resumedownload' href='https://drive.google.com/file/d/0B4Qm_Bf0R8XBak8tRDRGWHo3aTA/view?usp=sharing' target='_blank'><img className='resumedlimage' src={require('../images/download.png')}></img></a>
         </Modal>
       </div>
     )

@@ -145,7 +145,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: none;
-    font: normal 2.5vh/normal "Warnes", Helvetica, sans-serif;
+    font: normal 3.5vh/normal  'Federo', sans-serif;
     color: white;
     text-decoration: normal;
     text-align: center;
@@ -167,7 +167,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: none;
-    font: normal 2.5vh/normal "Warnes", Helvetica, sans-serif;
+    font: normal 3.5vh/normal  'Federo', sans-serif;
     color: white;
     text-decoration: normal;
     text-align: center;
@@ -186,7 +186,8 @@
     height: 50%;
     width: 110%;
     border-right: none;
-    border-bottom: 1 px solid right; } }
+    border-bottom: 1 px solid right;
+    top: -23px; } }
 
 @media screen and (max-width: 699px) and (min-width: 375px) {
   .right {

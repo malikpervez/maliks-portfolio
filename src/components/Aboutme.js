@@ -6,7 +6,7 @@ class Aboutme extends Component {
   render() {
     return (
       <div id='about'>
-        <Link className='back' to='/'>back</Link>
+        <Link className='back' to='/'>Back</Link>
         <Link className='myworklink' to='/mywork'>My Work</Link>
         <div className='vertical-box row'>
           <img className='malik' src={require('../images/Malik.png')} alt='Malik'></img>
