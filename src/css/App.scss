@@ -6,6 +6,9 @@ $shadow: rgba($yellow, .5);
 
 @import url("https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:300");
 @import url("https://fonts.googleapis.com/css?family=Warnes");
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Federo');
+
+
 
 @font-face {
 	font-family: 'CoreCircus2DDot1';
@@ -73,7 +76,6 @@ body{
  width: 100%;
  height: 100%;
  margin-top: 25%;
-
  border-top: white solid 1px;
  position: absolute;
 
@@ -107,12 +109,20 @@ h1 {
 		animation: flicker 3s linear infinite;
 	}
 }
-
+//resume modal with download icon
 .resume{
 	height: 80vh;
-	width: 45vw;
+	width: 35vw;
 }
 
+.resumedlimage{
+	height: 3vh;
+	width: 2vw;
+	position: absolute;
+	right: 2vw;
+}
+
+//buttons for landing page
 .routes{
 	display: inline-flex;
 	-webkit-box-sizing: border-box;
@@ -120,7 +130,7 @@ h1 {
 	box-sizing: border-box;
 	padding: 10px 0px 0px 18vw;
 	border: none;
-	font: normal 3.5vh/normal "Warnes", Helvetica, sans-serif;
+	font: normal 4.5vh/normal 'Fascinate Inline', cursive;
 	color: rgba(255,255,255,1);
 	text-decoration: normal;
 	text-align: center;
@@ -166,7 +176,7 @@ h1 {
 }
 
 
-
+// Media queries
 @media screen and (max-width: 699px) and (min-width: 375px) {
 			h1 {
 				-webkit-animation: fadeIn 3s ease-in;
@@ -259,8 +269,6 @@ h1 {
 	 width: 100vw;
 	 height: 50vh;
 	 margin-top: 50vh;
-
-
 	 border-top: 1px solid white;
 	 position: absolute;
 
@@ -279,5 +287,14 @@ h1 {
 	.resume{
 		height: 50vh;
 		width: 50vw;
+	}
+}
+
+@media screen and (max-width: 699px) and (min-width: 375px) {
+	.resumedlimage{
+		height: 4vh;
+		width: 3vw;
+		position: absolute;
+		right: 3vw;
 	}
 }

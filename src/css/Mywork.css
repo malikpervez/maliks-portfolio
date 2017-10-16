@@ -80,7 +80,7 @@
 
 .ontheflytitle {
   -webkit-animation: fadeInLeft 3s ease-in;
-  background-color: rgba(10, 9, 9, 0.59);
+  background-color: rgba(10, 9, 9, 0.9);
   font-size: 6vh;
   position: absolute;
   margin-left: 4vw;
@@ -90,7 +90,7 @@
 
 .ontheflytech {
   -webkit-animation: fadeTop 3s ease-in;
-  background-color: rgba(10, 9, 9, 0.59);
+  background-color: rgba(10, 9, 9, 0.9);
   font-size: 2vh;
   position: absolute;
   margin-left: 4vw;
@@ -100,26 +100,27 @@
 
 .ontheflybody {
   -webkit-animation: fadeInLeft 3s ease-in;
-  background-color: rgba(10, 9, 9, 0.59);
-  font-size: 2vh;
+  background-color: rgba(10, 9, 9, 0.9);
+  font-size: 2.5vh;
   position: absolute;
   margin-top: 24vh;
   margin-left: 4vw;
   width: 33vw;
-  font-family: 'CoreCircus', sans-serif;
+  font-family: 'Federo', sans-serif;
   color: white; }
 
 .ontheflybody2 {
   -webkit-animation: fadeInRight 3s ease-in;
   width: 33vw;
-  background-color: rgba(10, 9, 9, 0.59);
-  font-size: 2vh;
+  background-color: rgba(10, 9, 9, 0.9);
+  font-size: 2.5vh;
   position: absolute;
   margin-top: 24vh;
   margin-left: 40vw;
   width: 20vw;
-  font-family: 'CoreCircus', sans-serif;
-  color: white; }
+  font-family: 'Federo', sans-serif;
+  color: white;
+  list-style: none; }
 
 .teacherspet {
   -webkit-animation: fadeInLeft 3s ease-in;
@@ -131,7 +132,7 @@
 
 .teacherspettitle {
   -webkit-animation: fadeInLeft 3s ease-in;
-  background-color: rgba(10, 9, 9, 0.59);
+  background-color: rgba(10, 9, 9, 0.9);
   font-size: 6vh;
   position: absolute;
   margin-left: 4vw;
@@ -141,7 +142,7 @@
 
 .teacherspettech {
   -webkit-animation: fadeInTop 3s ease-in;
-  background-color: rgba(10, 9, 9, 0.59);
+  background-color: rgba(10, 9, 9, 0.9);
   font-size: 2vh;
   position: absolute;
   margin-left: 4vw;
@@ -151,26 +152,27 @@
 
 .teacherspetbody {
   -webkit-animation: fadeInLeft 3s ease-in;
-  background-color: rgba(10, 9, 9, 0.59);
-  font-size: 2vh;
+  background-color: rgba(10, 9, 9, 0.9);
+  font-size: 2.5vh;
   position: absolute;
   margin-top: 61vh;
   margin-left: 4vw;
   width: 33vw;
-  font-family: 'CoreCircus', sans-serif;
+  font-family: 'Federo', sans-serif;
   color: white; }
 
 .teacherspetbody2 {
   -webkit-animation: fadeInRight 3s ease-in;
   width: 33vw;
-  background-color: rgba(10, 9, 9, 0.59);
-  font-size: 2vh;
+  background-color: rgba(10, 9, 9, 0.9);
+  font-size: 2.5vh;
   position: absolute;
   margin-top: 61vh;
   margin-left: 40vw;
   width: 20vw;
-  font-family: 'CoreCircus', sans-serif;
-  color: white; }
+  font-family: 'Federo', sans-serif;
+  color: white;
+  list-style: none; }
 
 @media screen and (max-width: 699px) and (min-width: 375px) {
   .bwcol {
