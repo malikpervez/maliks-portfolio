@@ -46,7 +46,7 @@
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
- filter: grayscale(100%);
+ filter: grayscale(0%);
  width: 67vw;
  height: 100%;
  border-left: white solid 1px;
@@ -72,6 +72,7 @@
   box-sizing: border-box;
   border: none;
   font: normal 3.5vh/normal 'Federo', sans-serif;
+  word-wrap: break-word;
   color: rgba(255,255,255,1);
   text-decoration: normal;
   text-align: center;
@@ -86,7 +87,7 @@
 }
 
 .onthefly{
-  -webkit-animation: fadeInLeft 3s ease-in;
+  -webkit-animation: fadeInLeft 2s ease-in;
   height: 20vh;
   width: 20vw;
   margin-left: 6vw;
@@ -95,8 +96,7 @@
 }
 
 .ontheflytitle{
-  -webkit-animation: fadeInLeft 3s ease-in;
-  background-color: rgba(10,9,9,.9);
+  -webkit-animation: fadeInLeft 2s ease-in;
   font-size: 6vh;
   position: absolute;
   margin-left: 4vw;
@@ -106,8 +106,8 @@
 }
 
 .ontheflytech{
-  -webkit-animation: fadeTop 3s ease-in;
-  background-color: rgba(10,9,9,.9);
+  -webkit-animation: fadeTop 2s ease-in;
+
   font-size: 2vh;
   position: absolute;
   margin-left: 4vw;
@@ -117,8 +117,8 @@
 }
 
 .ontheflybody{
-  -webkit-animation: fadeInLeft 3s ease-in;
-  background-color: rgba(10,9,9,.9);
+  -webkit-animation: fadeInLeft 2s ease-in;
+  background-color: rgba(10,9,9,.5);
   font-size: 2.5vh;
   position: absolute;
   margin-top: 24vh;
@@ -129,9 +129,9 @@
 }
 
 .ontheflybody2{
-  -webkit-animation: fadeInRight 3s ease-in;
+  -webkit-animation: fadeInRight 2s ease-in;
   width: 33vw;
-  background-color: rgba(10,9,9,.9);
+  background-color: rgba(10,9,9,.5);
   font-size: 2.5vh;
   position: absolute;
   margin-top: 24vh;
@@ -143,7 +143,7 @@
 }
 
 .teacherspet{
-  -webkit-animation: fadeInLeft 3s ease-in;
+  -webkit-animation: fadeInLeft 2s ease-in;
   height: 20vh;
   width: 20vw;
   margin-left: 6vw;
@@ -152,8 +152,7 @@
 }
 
 .teacherspettitle{
-  -webkit-animation: fadeInLeft 3s ease-in;
-  background-color: rgba(10,9,9,.9);
+  -webkit-animation: fadeInLeft 2s ease-in;
   font-size: 6vh;
   position: absolute;
   margin-left: 4vw;
@@ -163,8 +162,7 @@
 }
 
 .teacherspettech{
-  -webkit-animation: fadeInTop 3s ease-in;
-  background-color: rgba(10,9,9,.9);
+  -webkit-animation: fadeInTop 2s ease-in;
   font-size: 2vh;
   position: absolute;
   margin-left: 4vw;
@@ -174,8 +172,8 @@
 }
 
 .teacherspetbody{
-  -webkit-animation: fadeInLeft 3s ease-in;
-  background-color: rgba(10,9,9,.9);
+  -webkit-animation: fadeInLeft 2s ease-in;
+  background-color: rgba(10,9,9,.5);
   font-size: 2.5vh;
   position: absolute;
   margin-top: 61vh;
@@ -186,9 +184,9 @@
 }
 
 .teacherspetbody2{
-  -webkit-animation: fadeInRight 3s ease-in;
+  -webkit-animation: fadeInRight 2s ease-in;
   width: 33vw;
-  background-color: rgba(10,9,9,.9);
+  background-color: rgba(10,9,9,.5);
   font-size: 2.5vh;
   position: absolute;
   margin-top: 61vh;
@@ -209,7 +207,7 @@
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-   filter: grayscale(100%);
+   filter: grayscale(0%);
    width: 67vw;
    height: 100%;
    border-left: white solid 1px;
@@ -232,7 +230,7 @@
 @media screen and (max-width: 699px) and (min-width: 375px) {
   .colorcol a{
     display: inline-flex;
-    margin-left: 7vw;
+    margin-left: 3vw;
     margin-top: 3vh;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -267,7 +265,6 @@
 @media screen and (max-width: 699px) and (min-width: 375px) {
   .ontheflytitle{
     -webkit-animation: fadeInLeft 3s ease-in;
-    background-color: rgba(10,9,9,.59);
     font-size: 3vh;
     position: absolute;
     margin-left: 4vw;
@@ -280,7 +277,6 @@
 @media screen and (max-width: 699px) and (min-width: 375px) {
   .ontheflytech{
     -webkit-animation: fadeTop 3s ease-in;
-    background-color: rgba(10,9,9,.59);
     font-size: 1vh;
     position: absolute;
     margin-left: 4vw;
@@ -293,7 +289,7 @@
 @media screen and (max-width: 699px) and (min-width: 375px) {
   .ontheflybody{
     -webkit-animation: fadeInLeft 3s ease-in;
-    background-color: rgba(10,9,9,.59);
+    background-color: rgba(10,9,9,.5);
     font-size: 1vh;
     position: absolute;
     margin-top: 16vh;
@@ -309,7 +305,7 @@
     -webkit-animation: fadeInRight 3s ease-in;
     list-style: none;
     width: 33vw;
-    background-color: rgba(10,9,9,.59);
+    background-color: rgba(10,9,9,.5);
     font-size: 1vh;
     position: absolute;
     margin-top: 24vh;
@@ -334,7 +330,6 @@
 @media screen and (max-width: 699px) and (min-width: 375px) {
   .teacherspettitle{
     -webkit-animation: fadeInLeft 3s ease-in;
-    background-color: rgba(10,9,9,.59);
     font-size: 3vh;
     position: absolute;
     margin-left: 4vw;
@@ -347,7 +342,6 @@
 @media screen and (max-width: 699px) and (min-width: 375px) {
   .teacherspettech{
     -webkit-animation: fadeInTop 3s ease-in;
-    background-color: rgba(10,9,9,.59);
     font-size: 1vh;
     position: absolute;
     margin-left: 4vw;
@@ -360,7 +354,7 @@
 @media screen and (max-width: 699px) and (min-width: 375px) {
   .teacherspetbody{
     -webkit-animation: fadeInLeft 3s ease-in;
-    background-color: rgba(10,9,9,.59);
+    background-color: rgba(10,9,9,.5);
     font-size: 1vh;
     position: absolute;
     margin-top: 42vh;
@@ -376,7 +370,7 @@
     -webkit-animation: fadeInRight 3s ease-in;
     list-style: none;
     width: 30vw;
-    background-color: rgba(10,9,9,.59);
+    background-color: rgba(10,9,9,.5);
     font-size: 1vh;
     position: absolute;
     margin-top: 58vh;

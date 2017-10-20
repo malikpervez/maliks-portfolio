@@ -2,7 +2,7 @@
   display:flex;
 }
 .back{
-  -webkit-animation: fadeInLeft 3s ease-in;
+  -webkit-animation: fadeInLeft 2s ease-in;
   display: inline-flex;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -28,7 +28,7 @@
 .vertical-box{
   display:flex;
   flex:1;
-  -webkit-animation: fadeIn 3s ease-in;
+  -webkit-animation: fadeIn 2s ease-in;
   z-index: -1;
   background: url('../images/wtc.png') no-repeat center center fixed;
  -webkit-background-size: cover;

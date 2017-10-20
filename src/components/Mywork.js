@@ -40,6 +40,7 @@ class Mywork extends Component {
           <a href='https://github.com/malikpervez/On_the_fly' target='_blank'>Github</a>
           <img className='teacherspet' src={require('../images/teacherpet.jpg')}></img>
           <a href= 'https://github.com/Dramalho7/teachers-pet' target='_blank'>Github</a>
+          <a href= 'https:teachersassistant.herokuapp.com' target='_blank'>Teachers<br></br>Assistant</a>
         </div>
       </div>
     )
